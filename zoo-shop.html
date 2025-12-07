@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="./zoo-shop.css" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./zoo-shop.js"></script>
+</head>
+
+<body>
+     <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-paw"></i>
+                    PetShop
+                </div>
+                
+                <nav class="nav-links">
+                    <a href="index.html" target="_blank" class="active">Home</a>
+                    <a href="zoo-shop.html" target="_blank">Shop</a>
+                    <a href="about.html" target="_blank">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Blog</a>
+                    <a href="contact.html" target="_blank">Contact</a>
+                </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-container">  
+        <div class="hero-section">
+            <div class="shop">
+                <div class="shop-main">
+                    <h5>Pet shop</h5>
+                    <h1>The friendly and <br> caring small pet store</h1>
+                    <p>At et vehicula sodales est proin turpis pellentesque sinulla a <br> aliquam amet rhoncus quisque eget sit</p>
+                </div>
+                <img src="https://ca-times.brightspotcdn.com/dims4/default/ee9f329/2147483647/strip/true/crop/1500x1604+0+0/resize/1200x1283!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F0e%2F9c%2F68ecfdbb40a1bf424028c6651503%2Fme-san-diego-zoo-animal-deaths-maka.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="pet-section">
+            <h1 class="pet-h1">Shop by pet</h1>
+            <div class="images">
+                <div class="animal">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/047/493/988/small/hairy-fluffy-cat-playing-png.png" alt="Cat">
+                    <h3>Cat</h3>
+                </div>
+                <div class="animal">
+                    <img src="https://i.pinimg.com/736x/ba/1b/ba/ba1bba5faa7a0f7bbbc6814f23d69677.jpg" alt="Hamster">
+                    <h3>Hamster</h3>
+                </div>
+                <div class="animal">
+                    <img src="https://png.pngtree.com/png-vector/20250111/ourmid/pngtree-golden-retriever-dog-pictures-png-image_15147078.png" alt="Dog">
+                    <h3>Dog</h3>
+                </div>
+                <div class="animal">
+                    <img src="https://png.pngtree.com/png-vector/20250512/ourmid/pngtree-green-parrot-with-red-beak-png-image_16222303.png" alt="Parrot">
+                    <h3>Parrot</h3>
+                </div>
+                <div class="animal">
+                    <img src="https://parspng.com/wp-content/uploads/2022/07/rabbitpng.parspng.com_.png" alt="Rabbit">
+                    <h3>Rabbit</h3>
+                </div>
+                <div class="animal">
+                    <img src="https://purepng.com/public/uploads/large/purepng.com-turtleshellanimalseaoceanreptileturtletortoise-981524667000bx4qt.png" alt="Turtle">
+                    <h3>Turtle</h3>
+                </div>
+            </div>
+            
+            <div class="two-img">
+                <img src="https://www.dartmoorzoo.org.uk/wp-content/uploads/2023/08/Jaguar_Edited-scaled-e1698065558646.jpg" alt="Jaguar">
+                <img class="img-two2" src="https://www.wpr.org/wp-content/uploads/2025/06/Camel-Baatar-05-2025-0082867-E-scaled.jpg" alt="Camel">
+            </div>
+        </div>
+
+        <h1>CATEGORY</h1>
+        <div class="products-section">
+            <div class="filters-sidebar">
+                <div class="filter-card">
+                    <h3>Category</h3>
+                    <label><input type="checkbox"> Dogs <span class="count">21</span></label>
+                    <label><input type="checkbox"> Cats <span class="count">28</span></label>
+                    <label><input type="checkbox"> Birds <span class="count">12</span></label>
+                    <label><input type="checkbox"> Fish <span class="count">80</span></label>
+                    <label><input type="checkbox"> Reptiles <span class="count">90</span></label>
+                    <label><input type="checkbox"> Others <span class="count">24</span></label>
+                </div>
+
+                <div class="filter-card">
+                    <h3>Price</h3>
+                    <div class="range-box">
+                        <input type="range" min="0" max="100" value="20" id="minRange">
+                        <input type="range" min="0" max="100" value="80" id="maxRange">
+                    </div>
+                    <button class="apply-btn">Apply</button>
+                </div>
+
+                <div class="filter-card">
+                    <h3>Brands</h3>
+                    <label><input type="checkbox"> Royal <span class="count">28</span></label>
+                    <label><input type="checkbox"> PetLine <span class="count">18</span></label>
+                    <label><input type="checkbox"> ZooMax <span class="count">16</span></label>
+                    <label><input type="checkbox"> Natural <span class="count">40</span></label>
+                    <label><input type="checkbox"> VitaPet <span class="count">28</span></label>
+                    <label><input type="checkbox"> MiniPet <span class="count">18</span></label>
+                </div>
+                
+                <div class="tags">
+                    <button class="tag">Dog food</button>
+                    <button class="tag">Cat food</button>
+                    <button class="tag">Natural</button>
+                    <button class="tag">Parrot</button>
+                    <button class="tag">Small dog</button>
+                    <button class="tag">Cat</button>
+                </div>
+            </div>
+
+            <div class="products-content">
+                <div class="header-row">
+                    <p>Showing products</p>
+                    <select class="sort-select">
+                        <option value="latest">Sort by latest</option>
+                        <option value="low">Price: low to high</option>
+                        <option value="high">Price: high to low</option>
+                    </select>
+                </div>
+
+                <div class="product-grid" id="productGrid"></div>
+
+                <div class="pagination">
+                    <button class="page active">1</button>
+                    <button class="page">2</button>
+                    <button class="next-btn">Next ›</button>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <i class="fas fa-paw"></i>
+                    PetShop
+                </div>
+                <p>Your one-stop shop for premium pet supplies. We're passionate about providing the best for your furry, feathered, and scaled friends.</p>
+                
+            </div>
+            
+            <div class="footer-links-container">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="zoo-shop.html" target="_blank">Shop</a></li>
+                    <li><a href="about.html" target="_blank">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links-container">
+                <h3 class="footer-heading">Customer Service</h3>
+                <ul class="footer-links">
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h3 class="footer-heading">Contact Info</h3>
+                <ul class="contact-info">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>123 Pet Street, Animal City, AC 12345</div>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <div>(555) 123-4567</div>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <div>info@petshop.com</div>
+                    </li>
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        <div>Mon-Sat: 9AM - 8PM<br>Sun: 10AM - 6PM</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; <span id="current-year">2023</span> PetShop. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+    </div>
+</body>
+</html>
